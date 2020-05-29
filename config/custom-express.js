@@ -25,7 +25,7 @@ module.exports = () => {
 
     const fs = require("fs");
     
-    [ "classes", "util" ].forEach(dir => {
+    [ "util", "classes" ].forEach(dir => {
         try{
             const files = fs.readdirSync(dir);
             files.forEach((file) => {
