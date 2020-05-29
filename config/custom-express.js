@@ -23,7 +23,19 @@ module.exports = () => {
 
     consign().include("controllers").into(app);
 
-
+    const fs = require("fs");
+    
+    [ "classes", "util" ].forEach(dir => {
+        try{
+            const files = fs.readdirSync(dir);
+            files.forEach((file) => {
+                const Class = require(`../${dir}/${file}`);
+                global[file.split(".")[0]] = Class;
+            });
+        }catch(e){
+            console.log(e);
+        }
+    });
 
     return app;
 };

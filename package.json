@@ -20,7 +20,7 @@
     "nodemailer": "^6.4.2",
     "referrer-policy": "^1.2.0",
     "uploadcare": "^0.4.5",
-    "uuid": "^8.1.0",
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
