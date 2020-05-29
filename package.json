@@ -1,0 +1,42 @@
+{
+  "name": "ticket-manager-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "express-parameters": "^1.0.4",
+    "express-validator": "5.3.1",
+    "expresss": "^0.0.0",
+    "md5": "^2.2.1",
+    "mysql": "^2.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.2",
+    "referrer-policy": "^1.2.0",
+    "uploadcare": "^0.4.5",
+    "uuid": "^8.1.0",
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "npm i && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leadthis/ticket-manager-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leadthis/ticket-manager-api/issues"
+  },
+  "homepage": "https://github.com/leadthis/ticket-manager-api#readme"
+}
